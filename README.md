@@ -1,5 +1,5 @@
 
-![Diagrama UML](https://imgur.com/gSP619M](https://i.imgur.com/gSP619M.png)
+![Diagrama UML](https://i.imgur.com/gSP619M.png)
 1. **Classe `iPhone`**:
    - A classe `iPhone` serve como uma classe principal que representa o iPhone em seu sistema. Ela possui três instâncias privadas das classes `ReprodutorMusical`, `AparelhoTelefônico` e `NavegadorInternet` para representar os diferentes papéis do iPhone.
 
