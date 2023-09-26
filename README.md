@@ -1,18 +1,18 @@
-## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+![Diagrama UML](https://imgur.com/gSP619M)
+1. **Classe `iPhone`**:
+   - A classe `iPhone` serve como uma classe principal que representa o iPhone em seu sistema. Ela possui três instâncias privadas das classes `ReprodutorMusical`, `AparelhoTelefônico` e `NavegadorInternet` para representar os diferentes papéis do iPhone.
 
-## Folder Structure
+   - O construtor da classe `iPhone` é responsável por criar essas instâncias internas.
 
-The workspace contains two folders by default, where:
+   - A classe `iPhone` possui métodos públicos para realizar ações específicas do iPhone, como atender chamadas (`atenderChamada()`) e pausar a música (`pausarMusica()`). Cada um desses métodos chama diretamente o método correspondente nas instâncias internas das classes de papéis específicos.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+2. **Métodos de Ação**:
+   - Foram criados métodos na classe `iPhone` que encapsulam as ações específicas desejadas, como atender chamadas e pausar a música. Esses métodos são responsáveis por delegar essas ações às classes internas relevantes.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+3. **Uso no `main`**:
+   - No método `main`, que é o ponto de entrada do programa, é criada uma instância de `iPhone` chamada `meuiPhone`.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+   - Em seguida, são chamados os métodos `atenderChamada()` e `pausarMusica()` na instância `meuiPhone` para demonstrar como você pode usar esses métodos para realizar ações específicas do iPhone.
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Resumindo, este código Java organiza a funcionalidade do iPhone em classes específicas para papéis como Reprodutor Musical, Aparelho Telefônico e Navegador na Internet, e permite que você chame métodos específicos da classe `iPhone` para executar ações relacionadas a esses papéis. Isso torna o código mais modular e fácil de manter, pois cada classe interna é responsável por suas próprias funcionalidades.
